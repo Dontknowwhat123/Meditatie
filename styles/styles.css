@@ -56,10 +56,10 @@ nav li a:hover {
     text-align: justify;
     color: white;
     font-size: 1.3em;
-    padding-left: 8%;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    background-color: rgb(21,21,42);
+    padding-left: 4em;
+    padding-top: 6em;
+    padding-bottom: 6em;
+    background-color: rgb(47, 47, 87);
     background-position-x: center;
     line-height: 1.8em;
 }
@@ -75,10 +75,10 @@ nav li a:hover {
     justify-content: end;
     color: white;
     font-size: 1.3em;
-    background-image: repeating-linear-gradient(to bottom, rgb(21,21,42),rgb(144, 30, 144));
-    padding-right: 8%;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    background-image: repeating-linear-gradient(to bottom, rgb(47, 47, 87),rgb(200, 41, 200));
+    padding-right: 4em;
+    padding-top: 4em;
+    padding-bottom: 4em;
     line-height: 1.8em;
 }
 .middle-text {
@@ -93,15 +93,15 @@ nav li a:hover {
     justify-content: start;
     color: white;
     font-size: 1.3em;
-    background-color: rgb(144, 30, 144);
-    padding-left: 8%;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    background-color: rgb(200, 41, 200);
+    padding-left: 4em;
+    padding-top: 6em;
+    padding-bottom: 6em;
     line-height: 1.8em;
 }
 .footer-text {
     display: flex;
-    background-image: repeating-linear-gradient(to bottom, rgb(64, 0, 107), black);
+    background-image: repeating-linear-gradient(to bottom, rgb(110, 0, 183), black);
     color: white;
     padding: 8%;
     font-size: 20px;
