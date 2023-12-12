@@ -195,6 +195,7 @@ header nav li a:hover {
     color: black;
     font-size: 20px;
     border-radius: 20px;
+    text-decoration: none;
 }
 
 .artikelen div a:hover {
@@ -207,6 +208,7 @@ header nav li a:hover {
     margin: 1em;
     height: 80px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .artikelen div a img {
