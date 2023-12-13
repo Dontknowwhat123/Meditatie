@@ -196,12 +196,13 @@ header nav li a:hover {
     font-size: 20px;
     border-radius: 20px;
     text-decoration: none;
+    transition: ease-in-out 0.2s;
 }
 
 .artikelen div a:hover {
-    transition: 0.1s;
+    transition: ease-in-out 0.2s;
     box-shadow: 0px 5px 10px rgb(147, 147, 147);
-    transform: translate(0,-10px);
+    transform: translate(0,-10px);    
 }
 
 .artikelen div a p {
