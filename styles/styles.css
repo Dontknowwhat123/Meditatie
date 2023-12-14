@@ -196,7 +196,7 @@ header nav li a:hover {
 .artikelen div {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
     margin-left: 1em;
     flex-grow: 1;
     flex-basis: 25%;
@@ -219,10 +219,9 @@ header nav li a:hover {
     transform: translate(0,-10px);    
 }
 
-.artikelen div a p {
+.artikelen div a h2 {
     margin: 1em;
-    height: 80px;
-    font-weight: bold;
+    height: auto;
     text-decoration: none;
 }
 
