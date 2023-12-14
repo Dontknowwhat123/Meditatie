@@ -31,20 +31,34 @@ header section div {
 }
 
 header nav ul {
+    display: flex;
     list-style-type: none;
     overflow: hidden;
     background: repeating-linear-gradient( to right, rgb(61, 34, 107), rgb(200, 124, 255));
     width: 100%;
-    padding-left: 46%;
+    padding-left: 5%;
 }
 
-header nav li {
-    display: inline-flex;
+header nav ul li {
+    display: flex;
     padding-top: 1em;
     padding-bottom: 1em;
 }
 
-header nav li a {
+header nav ul li:first-child {
+    padding-right: 37%;
+    font-weight: bold;
+    color: white;
+}
+
+header nav img {
+    position: absolute;
+    width: 2.5em;
+    height: auto;
+    margin-left: 1em;
+}
+
+header nav ul li a {
     color: white;
     text-decoration: none;
     margin-left: 20px;
