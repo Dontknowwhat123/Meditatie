@@ -30,39 +30,50 @@ header section div {
     margin-top: 10%;
 }
 
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to bottom, rgb(31, 31, 50), rgb(47, 47, 87));
+    height: 4em;
+}
+
 header nav ul {
     display: flex;
-    list-style-type: none;
-    overflow: hidden;
-    background: repeating-linear-gradient( to right, rgb(61, 34, 107), rgb(200, 124, 255));
-    width: 100%;
-    padding-left: 5em;
+    list-style: none;
+    gap: 25px;
+    padding-right: 5%;
 }
 
 header nav ul li {
-    display: flex;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    color: white;
+    text-decoration: none;
 }
 
-header nav ul li:first-child {
-    padding-right: 37%;
-    font-weight: bold;
+header nav a {
+    text-decoration: none;
     color: white;
+    font-weight: bold;
+}
+
+header nav div {
+    display: flex;
+    margin-bottom: 18px;
+}
+
+header nav div p {
+    position: absolute;
+    left: 20px;
+    color: white;
+    margin-left: 70px;
+    font-weight: bold;
 }
 
 header nav img {
     position: absolute;
-    width: 2.5em;
-    height: auto;
-    margin-left: 1em;
-    margin-top: 0.3em;
-}
-
-header nav ul li a {
-    color: white;
-    text-decoration: none;
-    margin-left: 20px;
+    left: 20px;
+    height: 60px;
+    width: auto;
 }
 
 header nav li a:hover {
@@ -82,8 +93,12 @@ header nav li a:hover {
     line-height: 1.8em;
 }
 
-.top-text div {
+.top-text div div {
     max-width: 50%;
+}
+
+.top-text div div {
+    padding-top: 1em;
 }
 
 .top-text div h2 {
@@ -107,6 +122,10 @@ header nav li a:hover {
     max-width: 50%;
 }
 
+.middle-text div p {
+    padding-bottom: 1em;
+}
+
 .middle-text h2 {
     padding-bottom: 0.5em;
 }
@@ -126,6 +145,10 @@ header nav li a:hover {
 
 .bottom-text div {
     max-width: 50%;
+}
+
+.bottom-text div p {
+    padding-bottom: 1em;
 }
 
 .bottom-text div h2 {
@@ -181,16 +204,17 @@ header nav li a:hover {
     padding-top: 1em;
     padding-bottom: 1em;
     background-color: rgb(47, 47, 87);
+    padding-right: 5%;
 }
 
 .artikelen {
     display: flex;
     background-image:linear-gradient( to bottom, rgb(47, 47, 87), rgb(178, 85, 214) );
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-bottom: 3em;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -235,48 +259,6 @@ header nav li a:hover {
 
 /*begin pagina 3*/
 
-.main-content {
-    background-image:linear-gradient( to bottom, rgb(47, 47, 87), rgb(178, 85, 214) );
-    padding-top: 2em;
-    padding-bottom: 2em;
-}
-
-.main-content h1 {
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
-
-.main-content div:first-child {
-    background-color: white;
-    font-size: 18px;
-    border-radius: 12px;
-    margin-left: 30%;
-    margin-right: 30%;
-    padding-left: 5%;
-    padding-bottom: 2%;
-    padding-right: 5%;
-}
-
-.main-content div:nth-child(2) {
-    padding-bottom: 1em;
-}
-
-.main-content div:nth-child(3) {
-    padding-bottom: 1em;
-}
-
-.main-content div:nth-child(4) {
-    padding-bottom: 1em;
-}
-
-.main-content div:nth-child(5) {
-    padding-bottom: 1em;
-}
-
-.main-content div:nth-child(6) {
-    padding-bottom: 1em;
-}
-
-.main-content div ol li {
+.middle-text ol li {
     padding-bottom: 1em;
 }
