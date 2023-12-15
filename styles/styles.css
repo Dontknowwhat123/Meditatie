@@ -72,7 +72,7 @@ header nav img {
     width: auto;
 }
 
-header nav li a:hover {
+header nav a:hover {
     transition: 0.2s;
     opacity: 0.5;
 }
@@ -85,7 +85,7 @@ header nav li a:hover {
     font-size: 1.3em;
     padding-left: 4em;
     padding-top: 6em;
-    padding-bottom: 6em;
+    padding-bottom: 10em;
     background-color: rgb(47, 47, 87);
     line-height: 1.8em;
 }
@@ -109,11 +109,7 @@ header nav li a:hover {
     line-height: 1.8em;
     padding-left: 50%;
     padding-right: 10%;
-}
-
-.middle-text p {
-    align-items: end;
-
+    padding-bottom: 10em;
 }
 
 .middle-text h2 {
@@ -131,7 +127,7 @@ header nav li a:hover {
     background-color: rgb(200, 41, 200);
     padding-left: 4em;
     padding-top: 6em;
-    padding-bottom: 6em;
+    padding-bottom: 10em;
     line-height: 1.8em;
 }
 
@@ -155,8 +151,8 @@ header nav li a:hover {
     width: 33%;
 }
 
-.footer-text div:first-child h2 {
-    font-size: 30px;
+.footer-text h3 {
+    padding-bottom: 0.5em;
 }
 
 .footer-text div:first-child p {
@@ -185,7 +181,7 @@ header nav li a:hover {
 }
 
 /*begin pagina 2*/
-.titel {
+.titel h1 {
     text-align: center;
     color: white;
     font-size: 30px;
@@ -243,4 +239,9 @@ header nav li a:hover {
 
 .middle-text ol li {
     padding-bottom: 1em;
+}
+
+.top-text h1 {
+    padding-bottom: 1em;
+    width: 50%
 }
