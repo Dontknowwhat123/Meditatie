@@ -17,7 +17,7 @@
     min-height: 100%;
 }
 
-header section div {
+header section h1 {
     position: absolute;
     text-align: center;
     color: rgb(255, 255, 255);
@@ -56,12 +56,8 @@ header nav a {
     font-weight: bold;
 }
 
-header nav div {
+header nav p {
     display: flex;
-    margin-bottom: 18px;
-}
-
-header nav div p {
     position: absolute;
     left: 20px;
     color: white;
@@ -83,6 +79,7 @@ header nav li a:hover {
 
 .top-text {
     display: flex;
+    flex-direction: column;
     text-align: justify;
     color: white;
     font-size: 1.3em;
@@ -93,45 +90,40 @@ header nav li a:hover {
     line-height: 1.8em;
 }
 
-.top-text div div {
+.top-text p {
     max-width: 50%;
 }
 
-.top-text div div {
-    padding-top: 1em;
-}
-
-.top-text div h2 {
+.top-text h2 {
     padding-bottom: 0.5em;
 }
 
+
 .middle-text {
     display: flex;
+    flex-direction: column;
     text-align: justify;
-    justify-content: end;
     color: white;
     font-size: 1.3em;
     background-image: repeating-linear-gradient(to bottom, rgb(47, 47, 87),rgb(200, 41, 200));
-    padding-right: 4em;
-    padding-top: 4em;
-    padding-bottom: 4em;
     line-height: 1.8em;
+    padding-left: 50%;
+    padding-right: 10%;
 }
 
-.middle-text div {
-    max-width: 50%;
-}
+.middle-text p {
+    align-items: end;
 
-.middle-text div p {
-    padding-bottom: 1em;
 }
 
 .middle-text h2 {
     padding-bottom: 0.5em;
+    align-items: start;
 }
 
 .bottom-text {
     display: flex;
+    flex-direction: column;
     text-align: justify;
     justify-content: start;
     color: white;
@@ -143,15 +135,11 @@ header nav li a:hover {
     line-height: 1.8em;
 }
 
-.bottom-text div {
+.bottom-text p {
     max-width: 50%;
 }
 
-.bottom-text div p {
-    padding-bottom: 1em;
-}
-
-.bottom-text div h2 {
+.bottom-text h2 {
     padding-bottom: 0.5em;
 }
 
@@ -216,19 +204,12 @@ header nav li a:hover {
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-}
-
-.artikelen div {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 3em;
-    margin-left: 1em;
     flex-grow: 1;
     flex-basis: 25%;
 }
 
-.artikelen div a {
-    width: 17em;
+.artikelen a {
+    width: 20em;
     height: auto;
     background-color: white;
     color: black;
@@ -236,22 +217,23 @@ header nav li a:hover {
     border-radius: 20px;
     text-decoration: none;
     transition: ease-in-out 0.2s;
+    margin-bottom: 5%;
 }
 
-.artikelen div a:hover {
+.artikelen a:hover {
     transition: ease-in-out 0.2s;
-    box-shadow: 0px 5px 10px rgb(147, 147, 147);
+    box-shadow: 0px 5px 10px rgb(45, 45, 45);
     transform: translate(0,-10px);    
 }
 
-.artikelen div a h2 {
+.artikelen a h2 {
     margin: 1em;
     height: auto;
     text-decoration: none;
 }
 
-.artikelen div a img {
-    width: 17em;
+.artikelen a img {
+    width: 20em;
     height: 275px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
